@@ -1,0 +1,15 @@
+
+
+MacVim - Program for editing
+	Same as on the terminal, just the full version of it.
+d - delete
+i - insert 
+: - for a command
+:edit - "directory/file" - to open a file
+:quit - to quit
+:write - to save
+dd - delete line
+d#d - delete number of lines
+:write "directory/file.typ" - save as new file
+
+

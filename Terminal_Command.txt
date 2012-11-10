@@ -1,0 +1,65 @@
+Daniel-Millards-MacBook:~ Daniel$ 
+   ^                                          ^----------------------------------------------Home directory (~) or current directory spot       
+   |
+    --------------------------------------------------------------------------------Host Name (my Computer at current)
+
+Command prompts:
+cd 	 	change directory
+cd / 		takes you to root directory
+cd ~ 		takes you to user directory
+ls 		List Directory
+ls -la 		Directory Detailed Listing
+ls -a		List al hidden files as well
+cp 		Copy
+mv 		Move
+rm 		Remove file
+rmdir		Remove directory (if empty)
+rm * 		Removes everything in that Directory
+mrdir		Remote directory
+mkdir		make a new directory
+cd ..		go back one directory
+Tab will fill in an unfinished name - fr (tab) - french
+Two tabs will show all files with those characters
+\ 		to ignore the following character (\ _ -  ignores a space)
+
+Daniel-Millards-MacBook:Pimsleur - French I Daniel$ cp Help.mp3 new\ spot/
+	move a file to new directory - the / at the end is the important part. (can also rename the file after /)
+		Daniel-Millards-MacBook:Pimsleur - French I Daniel$ cp Help.mp3 new\ spot/brownie.mp3
+
+Log into a different server:
+ping		see if a server is there
+cont c		stop processing and give me a command prompt
+ssh		server change
+doulos	robs server (daniel@doulos - 12345)
+exit		leaves the server and returned to user directory
+
+scp		secure copy
+-r		Recursive / everything in the directory
+French I Daniel$ scp down.mp3 daniel@doulos:learnfrench4.mp3
+		          secure copy
+			          file to move
+					             where you are moving it
+								  : is crucial
+									New file name
+
+rm -r *	remove recursively all things in this directory and all things following directories
+
+
+ssh robacarp@pyrite.feralhosting.com
+	psw: correct horse battery staple
+
+-v	lists play by play	
+
+
+an example of copying from robs server:
+
+Daniel-Millards-MacBook:~ Daniel$ scp -rv robacarp@pyrite.feralhosting.com:"~/data/Final\ Fantasy\ VII\ -\ Voices\ of\ the\ Lifestream" .
+
+
+
+
+
+
+
+
+

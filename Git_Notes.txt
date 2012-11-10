@@ -1,0 +1,26 @@
+
+
+Git command
+
+git gives you a command list
+
+You have to tell git to store file info and to update storage
+To add a file to the repo:
+	git add "file name" - This is preparation for a save point (highlight)
+	git status - tells current state of repository
+	git commit - makes commit/ save point
+		Runs a new program
+		press i for insert - allows you to make a note about the changes
+			press esc for next command
+		:write - saves it 
+		:quit - exits 
+
+Once repository in computer is updated, you need to push that to the git server
+
+
+
+MacVim - Program for editing
+	Same as on the terminal, just the full version of it.
+
+
+
