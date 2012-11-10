@@ -16,11 +16,9 @@ To add a file to the repo:
 		:quit - exits 
 
 Once repository in computer is updated, you need to push that to the git server
+	git push
 
 
-
-MacVim - Program for editing
-	Same as on the terminal, just the full version of it.
 
 
 
